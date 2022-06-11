@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact-Vinner</title>
+  </head>
+  <body>
+    <h1>My contact details</h1>
+    <p>My--- address</p>
+    <hr>
+    <h3>Write to me</h3>
+    <form action="mailto:vinnerhooda@gmail.com" method="post" enctype="multipart/form-data">
+      <label for="Name">Your Name</label>
+      <input type="name" required name="Name">
+      <br>
+      <label for="Subject">Subject</label>
+      <input type="text" required name="subject">
+      <br>
+      <label for="details">Details:</label>
+      <br>
+      <textarea name="details" id="" cols="30" rows="2"></textarea>
+      <br>
+      <label for="do you belong to an organisation">Do you belong to an organisation</label>
+      <input type="radio" name="organisation" required value="yes"><label for="yes">Yes</label>
+      <input type="radio" name="organisation" value="no"><label for="No">No</label>
+      <br>
+      <label for="organisation">If yes, then name of your organisation</label>
+      <input type="text">
+      <br>
+      <input type="submit"><input type="reset">
+    </form>
+    <hr>
+    <p><strong>Go to <a href="index.html">home page</a></strong></p>
+  </body>
+</html>
